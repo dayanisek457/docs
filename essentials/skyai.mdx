@@ -12,21 +12,21 @@ icon: "gear"
 
 > You have the full control. SkyAI only operates its actions after user request. You can either activate it by clicking "Generate with AI" where applicable on the interface or with the chat mode by clicking on the bot button on the top right corner of the interface.
 >
-> By default, SkyAI is always disabled and it becomes active once operating any of the actions described above.
+> By default, SkyAI is always disabled and it becomes active once operating any of the actions described above, and gets disabled once the request is done.
 >
-> The default model of SkyAI uses Gemini (by Google) API. Every user has a free access to it, but the usage is shared and monthly rates may apply if too much sollicited.
+> The default model of SkyAI uses Gemini (by Google) API. Every user has a free access to it, currently with a 10 requests per day rate if you use the free AI pool feature. We are planning to add more requests in the future.
 >
-> If you'd like to use another LLM model like Claude, ChatGPT or LLaMA via API, you can edit these via the AI configuration panel in the Settings menu.
+> If you would like to use another LLM model like Claude, ChatGPT or LLaMA via API, you can edit these via the AI configuration panel in the Settings menu.
 
 <Warning>
-  If you use your own LLM API settings, AI providers billing and terms apply. Please check their pricing and select the right model corresponding to the one you want.
+  If you use your own LLM API settings (BYOK feature), AI providers billing and terms apply. Please check their pricing and select the right model corresponding to the one you want.
+
+  **DISCLAIMER**: some features require some fine and realistic precision to give proper accurate results (e.g. Aircraft Profiles, Lessons). You may want to select a powerful and accurate LLM model. We can NOT guarantee any accurate results regarding to your selected AI model.
 </Warning>
 
-### Data privacy
+### What is a "request"? 
 
-> SkyAI NEVERS collect any data except for your requests. Each request you send to SkyAI is internally processed by the LLM and SkyX International primarly uses LLM that doesn't train itself on the data you send to SkyAI. 
->
-> For more information, please check the SkyReach Academy privacy policy on the settings page.
+Every time you invoke SkyAI through the integrated AI generation features listed below counts as a request, regardless of the complexity of the task. 1 request is automatically billed from your free AI pool usage once you use it. 
 
 ## Features
 
@@ -36,11 +36,11 @@ icon: "gear"
 >
 > - Custom Lesson Generator: on the Lessons page, you can generate PPL to ATPL mini-courses, with detailed explanations. Simply prompt on the bar what do you want, and SkyAI will automatically save a detailed lesson to your library. The more you describe with details what output do you want, the more your generated lesson will be personalised and accurate. Each lesson is saved privately on your library.
 > - Flashcards and Mock Exams sets: learn actively aviation terms and knowledge with these two different features, available on the Study Mode page. We suggest you to be accurate and precise when typing your request so your result will be more appropriated.
-> - Aircraft Profiles: very useful AI feature integrated if you don't know the exact configurations of your aircraft\*. 
+> - Aircraft Profiles: very useful AI feature integrated if you don't know the exact configurations of your aircraft\*.
 > - Radio Training sets: if you want to learn aviation radio communications, this feature is very useful to learn realistic scenarios.
 > - Checklist Builder: generate in-depth checklists for flight simulation uses. Create the scenario you want and challenge yourself in realistic circumstances\*\!
 >
-> \*(WARNING: we do NOT recommend to use this feature for real-life flights. If you do so, we highly suggest to double-check the results with verified sources.)
+> \*(**WARNING**: we do NOT recommend to use this feature for real-life flights. If you do so, we highly suggest to double-check the results with verified sources.)
 
 ### Chatting mode
 
@@ -56,3 +56,9 @@ icon: "gear"
 > More features are being added like image generation, API for custom requests (like ADS-B real-time data.)
 >
 > Chatting with SkyAI is currently free for everyone, but rates may apply if spammy behaviors are detected.
+
+### Data privacy
+
+> SkyAI **NEVERS** collect any data except for your requests. Each request you send to SkyAI is internally processed by the LLM.
+>
+> For more information, please check the SkyReach Academy privacy policy on the settings page.
