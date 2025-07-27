@@ -4,8 +4,8 @@
   "name": "SkyReach Academy Docs",
   "colors": {
     "primary": "#5A8DAD",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#5A8DAD",
+    "dark": "#5A8DAD"
   },
   "favicon": "/business.jpeg",
   "navigation": {
